@@ -20,5 +20,5 @@ We'll be making use of the Javascript programming language within a [Node](https
 
 ## Instructions
 
-Head on over to the [instructions for getting your laptop ready](./docs/PRE-REQUISITES.md).
+Head on over to the [instructions for forking and cloning this repository](./docs/PRE-REQUISITES.md).
 
