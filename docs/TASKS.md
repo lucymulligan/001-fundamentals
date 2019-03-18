@@ -14,7 +14,21 @@ Then Person B writes the test and code for task 4.
 
 Person A writes the code and implements the function for task 5 and so on and so on.
 
-## 1) Enhancing your package.json
+## 1) Download the ESLint extension for VSCode
+
+We use a tool called a Linter. A linter will identify when we have incorrectly formatted our code, or when it suspects we have an error such as an undefined variable.
+
+We use a tool called [ESLint](https://eslint.org/).
+
+You can run:
+
+    npm run eslint
+
+to see whether ESLint suspects you have made any errors. It is recommended to do this regularly, so you can fix problems as you go along.
+
+Also, **install the ESLint extension for VSCode**, which will provide in-line error checking (by underlining any problems in red squiggly lines, like in a Word document). Click the square symbol on the left hand bar for extensions.
+
+## 2) Enhancing your package.json
 
 Update your package.json and get it to list out files and directories when you run `npm run show-all-files`
 
@@ -28,7 +42,7 @@ LICENSE           README.md         app               docs              package-
 
 Go back to your command line lecture notes and the command for listing files
 
-## 2) Write the test for a subtract function
+## 3) Write the test for a subtract function
 
 Add a new test that will check that the calculator now supports a subtract function.
 
@@ -36,13 +50,13 @@ Add a new test that will check that the calculator now supports a subtract funct
 
 At this stage the test should FAIL.
 
-## 3) Implement the subtract function
+## 4) Implement the subtract function
 
 Update your application to implement a new function that will subtract two numbers and return the result.
 
-The test from task 2 should now pass.
+The test from task 3 should now pass.
 
-## 4) Write a test for a multiply function
+## 5) Write a test for a multiply function
 
 Add a new test that will check that the calculator now supports a multiply function.
 
@@ -50,13 +64,13 @@ Add a new test that will check that the calculator now supports a multiply funct
 
 At this stage the test should FAIL.
 
-## 5) Implement the multiply function
+## 6) Implement the multiply function
 
 Update your application to implement a new function that will multiply two numbers and return the result.
 
-The test from task 4 should now pass.
+The test from task 5 should now pass.
 
-## 6) Write a test for an isOdd function
+## 7) Write a test for an isOdd function
 
 Add a new test that will check that the calculator now supports an isOdd function that will return `true` if the number passed to it is odd, and `false` if the number passed to it is even.
 
@@ -64,13 +78,13 @@ Add a new test that will check that the calculator now supports an isOdd functio
 
 At this stage the test should FAIL.
 
-## 7) Implement the isOdd function
+## 8) Implement the isOdd function
 
 Update your application to implement the isOdd function
 
-The test from task 6 should now pass.
+The test from task 7 should now pass.
 
-## 8) Write a test for an isEven function
+## 9) Write a test for an isEven function
 
 Add a new test that will check that the calculator now supports an isEven function that will return `true` if the number passed to it is even, and `false` if the number passed to it is even.
 
@@ -78,13 +92,13 @@ Add a new test that will check that the calculator now supports an isEven functi
 
 At this stage the test should FAIL.
 
-## 9) Implement the isEven function
+## 10) Implement the isEven function
 
 Update your application to implement the isEven function
 
-The test from task 8 should now pass.
+The test from task 9 should now pass.
 
-## 10) Write a test for an divisibleBy function
+## 11) Write a test for an divisibleBy function
 
 Add a new test that will check that the calculator now supports a divisibleBy function which takes two arguments and returns `true` if the first number can be divided evenly by the second.
 
@@ -97,13 +111,13 @@ e.g.
 
 At this stage the test should FAIL.
 
-## 11) Implement the divisibleBy function
+## 12) Implement the divisibleBy function
 
 Update your application to implement the divisibleBy function.
 
-The test from task 10 should now pass.
+The test from task 11 should now pass.
 
-## 12) Write a test for a square function
+## 13) Write a test for a square function
 
 Add a new test that will check that the calculator now supports a square function that returns the square of the number passed to it.
 
@@ -111,11 +125,11 @@ Add a new test that will check that the calculator now supports a square functio
 
 At this stage the test should FAIL.
 
-## 13) Implement the square function
+## 14) Implement the square function
 
 Update your application to implement the square function.
 
-The test from task 12 should now pass.
+The test from task 13 should now pass.
 
 # Written questions
 
